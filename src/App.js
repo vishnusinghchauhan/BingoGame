@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import shuffle from "shuffle-array";
 import { start } from "./Confetti";
 
@@ -104,7 +102,7 @@ class App extends React.Component{
     const data = shuffle(this.state.data);
     this.setState({data: data})
   }
-  
+
   playGameAgain(){
     //window.location.reload(); 
     this.setState({isWon:false})

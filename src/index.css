@@ -19,14 +19,11 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	padding: 10px;
 	min-height: 40px;
 	font-size: 15px;
-
 	border: 2px rgb(77, 70, 65) dashed;
 	border-radius: 10px;
-
 	cursor: pointer;
 }
 
@@ -38,14 +35,11 @@ canvas {
 	position: fixed;
 	top: 0;
 	left: 0;
-
 	overflow-y: hidden;
 	overflow-x: hidden;
-
 	height: 100vh;
 	width: 100vw;
 	margin: 0;
-
 	pointer-events: none;
 }
 
